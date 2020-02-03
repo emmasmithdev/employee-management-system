@@ -28,10 +28,15 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    public abstract void raiseSalary(double percent);
-
     public double payBonus(){
         return this.salary / 100;
+    }
+
+    public void raiseSalary(double percent){
+        double salary = getSalary();
+        double extra = (salary / 100) * percent;
+        double newSalary = salary + extra;
+        setSalary(newSalary);
     }
 
 }

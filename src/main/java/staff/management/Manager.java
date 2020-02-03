@@ -15,15 +15,5 @@ public class Manager extends Employee {
         return deptName;
     }
 
-    public void raiseSalary(double percent){
-        double salary = super.getSalary();
-        double extra = (salary / 100) * percent;
-        double newSalary = salary + extra;
-        super.setSalary(newSalary);
-    }
 
-    @Override
-    public double payBonus() {
-        return super.payBonus();
-    }
 }
