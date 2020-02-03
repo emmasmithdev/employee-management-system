@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ba0cd5-78d8-462d-8250-fe1bf1b3d474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseAdminTest">
+  <component name="RunManager" selected="JUnit.DirectorTest">
     <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employeeManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +66,15 @@
       <module name="employeeManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeeManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,23 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employeeManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest" />
         <item itemvalue="JUnit.DatabaseAdminTest" />
         <item itemvalue="JUnit.DeveloperTest" />
         <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="JUnit.ManagerTest.canPayBonus" />
-        <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
       </list>
     </recent_temporary>
   </component>
